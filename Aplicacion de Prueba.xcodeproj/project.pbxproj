@@ -13,7 +13,7 @@
 		B938654821E1866D006845CB /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B938654721E1866D006845CB /* HeaderView.swift */; };
 		B94B0FE321E0C5EF0039188B /* NetflixCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94B0FE221E0C5EF0039188B /* NetflixCollectionViewController.swift */; };
 		B94B0FE521E0C9260039188B /* CeldaContenedorPeliculas.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94B0FE421E0C9260039188B /* CeldaContenedorPeliculas.swift */; };
-		B97904B521E3118B002AE83C /* CeldaContenedorPeliculasCircular.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97904B421E3118B002AE83C /* CeldaContenedorPeliculasCircular.swift */; };
+		B97904B521E3118B002AE83C /* CeldaContenedorPeliculasPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97904B421E3118B002AE83C /* CeldaContenedorPeliculasPreview.swift */; };
 		B9B614CF21E2D4DE0003217C /* CeldaPelicula.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B614CE21E2D4DE0003217C /* CeldaPelicula.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +26,7 @@
 		B938654721E1866D006845CB /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		B94B0FE221E0C5EF0039188B /* NetflixCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixCollectionViewController.swift; sourceTree = "<group>"; };
 		B94B0FE421E0C9260039188B /* CeldaContenedorPeliculas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaContenedorPeliculas.swift; sourceTree = "<group>"; };
-		B97904B421E3118B002AE83C /* CeldaContenedorPeliculasCircular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaContenedorPeliculasCircular.swift; sourceTree = "<group>"; };
+		B97904B421E3118B002AE83C /* CeldaContenedorPeliculasPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaContenedorPeliculasPreview.swift; sourceTree = "<group>"; };
 		B9B614CE21E2D4DE0003217C /* CeldaPelicula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaPelicula.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,7 +64,7 @@
 				B94B0FE221E0C5EF0039188B /* NetflixCollectionViewController.swift */,
 				B94B0FE421E0C9260039188B /* CeldaContenedorPeliculas.swift */,
 				B9B614CE21E2D4DE0003217C /* CeldaPelicula.swift */,
-				B97904B421E3118B002AE83C /* CeldaContenedorPeliculasCircular.swift */,
+				B97904B421E3118B002AE83C /* CeldaContenedorPeliculasPreview.swift */,
 				B938654721E1866D006845CB /* HeaderView.swift */,
 				B918681D21D5E93A00342C9C /* Assets.xcassets */,
 				B918681F21D5E93A00342C9C /* LaunchScreen.storyboard */,
@@ -145,7 +145,7 @@
 			files = (
 				B9B614CF21E2D4DE0003217C /* CeldaPelicula.swift in Sources */,
 				B94B0FE521E0C9260039188B /* CeldaContenedorPeliculas.swift in Sources */,
-				B97904B521E3118B002AE83C /* CeldaContenedorPeliculasCircular.swift in Sources */,
+				B97904B521E3118B002AE83C /* CeldaContenedorPeliculasPreview.swift in Sources */,
 				B94B0FE321E0C5EF0039188B /* NetflixCollectionViewController.swift in Sources */,
 				B918681721D5E93600342C9C /* AppDelegate.swift in Sources */,
 				B938654821E1866D006845CB /* HeaderView.swift in Sources */,

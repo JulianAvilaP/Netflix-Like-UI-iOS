@@ -11,7 +11,7 @@ import UIKit
 
 
 
-class CeldaContenedorPeliculasCircular: UICollectionViewCell, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, UICollectionViewDelegate {
+class CeldaContenedorPeliculasPreview: UICollectionViewCell, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, UICollectionViewDelegate {
     
     var coverPeliculasCirculares = [#imageLiteral(resourceName: "Daredevil"),#imageLiteral(resourceName: "narcos-cover"),#imageLiteral(resourceName: "strangerThingsCover"),#imageLiteral(resourceName: "stranger-things-poster2")]
     

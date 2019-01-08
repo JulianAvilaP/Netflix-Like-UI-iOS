@@ -28,7 +28,7 @@ class NetflixCollectionViewController: UICollectionViewController, UICollectionV
         collectionView.showsVerticalScrollIndicator = false
         self.collectionView!.register(CeldaContenedorPeliculas.self, forCellWithReuseIdentifier: reuseIdentifier)
         self.collectionView.register(HeaderView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: headerId)
-        self.collectionView.register(CeldaContenedorPeliculasCircular.self, forCellWithReuseIdentifier: celdaCircularId)
+        self.collectionView.register(CeldaContenedorPeliculasPreview.self, forCellWithReuseIdentifier: celdaCircularId)
 
     }
 
@@ -58,7 +58,7 @@ class NetflixCollectionViewController: UICollectionViewController, UICollectionV
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         if indexPath.item == 0 {
-            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: celdaCircularId, for: indexPath) as! CeldaContenedorPeliculasCircular
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: celdaCircularId, for: indexPath) as! CeldaContenedorPeliculasPreview
             return cell
         } else {
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! CeldaContenedorPeliculas
