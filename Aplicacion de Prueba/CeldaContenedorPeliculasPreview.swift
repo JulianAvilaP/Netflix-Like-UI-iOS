@@ -105,6 +105,16 @@ class PeliculasCircularesCell: UICollectionViewCell {
 
     }()
     
+    let imageViewTituloPeliculas: UIImageView = {
+        
+        let iv = UIImageView()
+        iv.contentMode = .scaleAspectFit
+        iv.translatesAutoresizingMaskIntoConstraints = false
+        iv.backgroundColor = .clear
+        return iv
+        
+    }()
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         addSubview(imageViewPeliculas)
@@ -118,6 +128,13 @@ class PeliculasCircularesCell: UICollectionViewCell {
         imageViewPeliculas.heightAnchor.constraint(equalTo: imageViewPeliculas.superview!.heightAnchor, constant: -25).isActive = true
         imageViewPeliculas.bottomAnchor.constraint(equalTo: imageViewPeliculas.superview!.bottomAnchor).isActive = true
         imageViewPeliculas.layer.cornerRadius = (frame.height - 25)/2
+        
+        addSubview(imageViewTituloPeliculas)
+        imageViewTituloPeliculas.centerXAnchor.constraint(equalTo: imageViewPeliculas.centerXAnchor).isActive = true
+        imageViewTituloPeliculas.bottomAnchor.constraint(equalTo: imageViewPeliculas.bottomAnchor).isActive = true
+        imageViewTituloPeliculas.heightAnchor.constraint(equalTo: heightAnchor, multiplier: 1/4).isActive = true
+        imageViewTituloPeliculas.widthAnchor.constraint(equalTo: widthAnchor).isActive = true
+        
     }
     
     required init?(coder aDecoder: NSCoder) {
