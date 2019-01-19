@@ -57,6 +57,10 @@ class CeldaContenedorPeliculasPreview: UICollectionViewCell, UICollectionViewDat
         return UIEdgeInsets(top: 0, left: 15, bottom: 0, right: 20)
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        print(indexPath.item)
+    }
+    
     override init(frame: CGRect) {
         
         super.init(frame: frame)

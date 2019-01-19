@@ -47,6 +47,10 @@ class CeldaContenedorPeliculas: UICollectionViewCell, UICollectionViewDataSource
         return 25
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        print(indexPath.item)
+    }
+    
     fileprivate let collectionViewPeliculas: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .horizontal

@@ -43,7 +43,7 @@ class NetflixCollectionViewController: UICollectionViewController, UICollectionV
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
 
-       return CGSize(width: view.frame.width, height: 200)
+       return CGSize(width: view.frame.width, height: view.frame.width * 0.65)
     }
     
     // MARK: Data Source
@@ -70,6 +70,12 @@ class NetflixCollectionViewController: UICollectionViewController, UICollectionV
         
         
     }
+    
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        print(indexPath.item)
+    }
+    
+    
     
     //MARK: CollectionViewFlowLayout
 
